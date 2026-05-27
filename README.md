@@ -31,3 +31,8 @@ SELECT
 FROM DIM_STUDENTS s
 INNER JOIN FACT_ATTENDANCE a ON s.STUDENT_ID = a.STUDENT_ID
 GROUP BY 1, 2, 3, 4;
+
+## 📷 Application Previews
+
+<img width="1920" height="1136" alt="Screenshot (218)" src="https://github.com/user-attachments/assets/771c641b-5276-48ea-889c-cab93a207aa1" />
+<img width="1920" height="1140" alt="Screenshot (217)" src="https://github.com/user-attachments/assets/86c9ca15-0c07-46db-b33a-cf499de51dc7" />
